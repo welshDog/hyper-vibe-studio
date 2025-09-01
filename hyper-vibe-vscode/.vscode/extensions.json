@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "tabnine.tabnine-vscode",
+        "ritwickdey.liveserver",
+        "github.vscode-pull-request-github",
+        "sonarsource.sonarlint-vscode",
+        "formulahendry.code-runner",
+        "ms-python.python",
+        "esbenp.prettier-vscode",
+        "gruntfuggly.todo-tree",
+        "aaron-bond.better-comments",
+        "pkief.material-icon-theme"
+    ],
+    "unwantedRecommendations": [
+        "ms-vscode.vscode-json",
+        "ms-vscode.vscode-yaml"
+    ]
+}

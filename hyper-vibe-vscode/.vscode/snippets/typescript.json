@@ -1,0 +1,26 @@
+{
+  "Hyper-Vibe TypeScript Function": {
+    "prefix": "hvtsfn",
+    "body": [
+      "/**",
+      " * ⚡ $1",
+      " */",
+      "function ${2:functionName}(${3:args}: ${4:type}): ${5:void} {",
+      "  ${0:// body}",
+      "}"
+    ],
+    "description": "Hyper-Vibe TypeScript function template"
+  },
+  "Hyper-Vibe TypeScript Interface": {
+    "prefix": "hvtsinterface",
+    "body": [
+      "/**",
+      " * ⚡ $1",
+      " */",
+      "interface ${2:InterfaceName} {",
+      "  ${0:property}: type;",
+      "}"
+    ],
+    "description": "Hyper-Vibe TypeScript interface template"
+  }
+}

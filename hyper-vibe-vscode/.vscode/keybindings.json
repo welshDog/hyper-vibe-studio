@@ -1,0 +1,43 @@
+[
+  {
+    "key": "ctrl+alt+z",
+    "command": "workbench.action.toggleZenMode",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "editor.action.insertSnippet"
+  },
+  {
+    "key": "ctrl+alt+h",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+alt+j",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "workbench.action.toggleActivityBar"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "extension.liveServer.goOnline"
+  },
+  {
+    "key": "ctrl+alt+r",
+    "command": "code-runner.run"
+  },
+  {
+    "key": "ctrl+alt+g",
+    "command": "pr.create"
+  }
+]

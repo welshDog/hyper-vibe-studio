@@ -1,0 +1,38 @@
+{
+  "Hyper-Vibe Django View": {
+    "prefix": "hvdjango",
+    "body": [
+      "from django.shortcuts import render",
+      "from django.http import HttpResponse",
+      "",
+      "def ${1:view_name}(request):",
+      "    \"\"\"",
+      "    ⚡ ${2:View description}",
+      "    \"\"\"",
+      "    ${0:# view logic}",
+      "    return render(request, '${3:template}.html')"
+    ],
+    "description": "Hyper-Vibe Django view function template"
+  },
+  "Hyper-Vibe Django Model": {
+    "prefix": "hvmodel",
+    "body": [
+      "from django.db import models",
+      "",
+      "class ${1:ModelName}(models.Model):",
+      "    \"\"\"",
+      "    ⚡ ${2:Model description}",
+      "    \"\"\"",
+      "    ${3:field_name} = models.${4:CharField}(max_length=${5:100})",
+      "    ${0:# additional fields}",
+      "",
+      "    def __str__(self):",
+      "        return self.${3:field_name}",
+      "",
+      "    class Meta:",
+      "        verbose_name = '${1:ModelName}'",
+      "        verbose_name_plural = '${1:ModelName}s'"
+    ],
+    "description": "Hyper-Vibe Django model template"
+  }
+}

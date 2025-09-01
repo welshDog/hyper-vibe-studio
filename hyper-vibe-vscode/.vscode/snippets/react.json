@@ -1,0 +1,35 @@
+{
+  "Hyper-Vibe React Component": {
+    "prefix": "hvreact",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div>",
+      "      <h1>⚡ ${2:Hello Hyper Vibe}</h1>",
+      "      ${0:/* JSX here */}",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "Hyper-Vibe React functional component template"
+  },
+  "Hyper-Vibe React Hook": {
+    "prefix": "hvuse",
+    "body": [
+      "import { useState } from 'react';",
+      "",
+      "const use${1:HookName} = () => {",
+      "  const [${2:state}, set${2:State}] = useState(${3:initialValue});",
+      "  ${0:// hook logic}",
+      "  return { ${2:state}, set${2:State} };",
+      "};",
+      "",
+      "export default use${1:HookName};"
+    ],
+    "description": "Hyper-Vibe React custom hook template"
+  }
+}

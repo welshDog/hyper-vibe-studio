@@ -1,0 +1,41 @@
+{
+  "Hyper-Vibe Vue Component": {
+    "prefix": "hvvue",
+    "body": [
+      "<template>",
+      "  <div>",
+      "    <h1>⚡ {{ title }}</h1>",
+      "    ${0:<!-- Template content -->}",
+      "  </div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "import { ref } from 'vue';",
+      "",
+      "const title = ref('${1:Hyper Vibe Vue}');",
+      "</script>",
+      "",
+      "<style scoped>",
+      ".container {",
+      "  /* Styles here */",
+      "}",
+      "</style>"
+    ],
+    "description": "Hyper-Vibe Vue 3 component template"
+  },
+  "Hyper-Vibe Vue Composition API": {
+    "prefix": "hvvuecomp",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "import { ref, onMounted } from 'vue';",
+      "",
+      "const ${1:data} = ref(${2:initialValue});",
+      "",
+      "onMounted(() => {",
+      "  ${0:// component logic}",
+      "});",
+      "</script>"
+    ],
+    "description": "Hyper-Vibe Vue Composition API setup"
+  }
+}

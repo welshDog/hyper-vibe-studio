@@ -1,0 +1,15 @@
+{
+  "Hyper-Vibe Function": {
+    "prefix": "hvfn",
+    "body": [
+      "/**",
+      " * \u26a1 $1",
+      " * Description: $2",
+      " */",
+      "function ${1:fnName}(${2:args}) {",
+      "  ${0:// body...}",
+      "}"
+    ],
+    "description": "Hyper-Vibe JS function template"
+  }
+}

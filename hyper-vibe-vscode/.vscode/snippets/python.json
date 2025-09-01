@@ -1,0 +1,25 @@
+{
+  "Hyper-Vibe Python Function": {
+    "prefix": "hvpyfn",
+    "body": [
+      "def ${1:function_name}(${2:args}):",
+      "    \"\"\"",
+      "    ⚡ $3",
+      "    \"\"\"",
+      "    ${0:pass}"
+    ],
+    "description": "Hyper-Vibe Python function template"
+  },
+  "Hyper-Vibe Python Class": {
+    "prefix": "hvpyclass",
+    "body": [
+      "class ${1:ClassName}:",
+      "    \"\"\"",
+      "    ⚡ $2",
+      "    \"\"\"",
+      "    def __init__(self, ${3:args}):",
+      "        ${0:pass}"
+    ],
+    "description": "Hyper-Vibe Python class template"
+  }
+}

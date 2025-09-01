@@ -1,0 +1,34 @@
+{
+  "Hyper-Vibe HTML Template": {
+    "prefix": "hvhtml",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "<head>",
+      "  <meta charset=\"UTF-8\">",
+      "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "  <title>⚡ ${1:Page Title}</title>",
+      "  <link rel=\"stylesheet\" href=\"${2:styles.css}\">",
+      "</head>",
+      "<body>",
+      "  <h1>${3:Hello World}</h1>",
+      "  ${0:<!-- Content -->}",
+      "  <script src=\"${4:script.js}\"></script>",
+      "</body>",
+      "</html>"
+    ],
+    "description": "Hyper-Vibe HTML template"
+  },
+  "Hyper-Vibe CSS Flexbox": {
+    "prefix": "hvflex",
+    "body": [
+      ".container {",
+      "  display: flex;",
+      "  justify-content: ${1:center};",
+      "  align-items: ${2:center};",
+      "  ${0:/* Additional styles */}",
+      "}"
+    ],
+    "description": "Hyper-Vibe CSS Flexbox snippet"
+  }
+}
