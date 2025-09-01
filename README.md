@@ -1,8 +1,8 @@
-# 🚀 Hyper-Vibe Studio v3.0
+# 🚀 Hyper-Vibe Studio v3.0.1
 
 > The ultimate VS Code workspace configuration for productivity, flow state, and developer happiness
 
-[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](https://github.com/welshDog/hyper-vibe-studio/releases)
+[![Version](https://img.shields.io/badge/version-3.0.1-blue.svg)](https://github.com/welshDog/hyper-vibe-studio/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![VS Code](https://img.shields.io/badge/VS_Code-1.74+-blue.svg)](https://code.visualstudio.com/)
 
@@ -24,7 +24,7 @@ Transform your coding experience with **Hyper-Vibe Studio** - a meticulously cra
 - **Material Theme Darker High Contrast**: Professional dark theme
 - **Material Icon Theme**: Consistent, beautiful file icons
 - **Indent Rainbow**: Visual code structure
-- **Better Comments**: Color-coded comment system
+- **Better Comments**: Enhanced color-coded comment system with custom styling
 
 ### 📊 Productivity Features
 - **TODO Tree**: Visual task management with custom tags

@@ -1,5 +1,5 @@
 
-# Hyper-Vibe Studio v3.0 VS Code Workspace
+# Hyper-Vibe Studio v3.0.1 VS Code Workspace
 Drop the `.vscode` folder into the root of your project, or import these files into your user/workspace settings.
 
 Files included:
@@ -25,14 +25,14 @@ Files included:
 5. Reload VS Code (Ctrl+Shift+P → "Developer: Reload Window") to apply all settings.
 6. Install recommended extensions manually if needed (open Command Palette → "Extensions: Show Recommended Extensions").
 
-## New Features in HyperFocus Update
-- **Expanded Extensions**: Added productivity tools like Todo Tree, Better Comments, Remote Containers, and language support for Python, TypeScript, HTML/CSS.
-- **Enhanced Settings**: Performance tweaks (whitespace rendering, file exclusions), accessibility support, and theme compatibility.
-- **Custom Tasks**: Pre-configured tasks for running Python/Node.js files, npm install/build.
-- **More Snippets**: Templates for Python functions/classes, TypeScript functions/interfaces, HTML templates, and CSS Flexbox.
-- **Vibe Mode Integration**: Includes Vibe Mode extension for flow state management.
+## New Features in HyperFocus Update v3.0.1
+- **Enhanced Better Comments**: Custom color styling for different comment types (!, ?, //)
+- **Improved Material Theme**: Refined Darker High Contrast with better readability
+- **Optimized Performance**: Enhanced auto-save settings and editor responsiveness
+- **Fine-tuned Configuration**: Streamlined settings for maximum productivity
+- **Live Testing**: Successfully tested and validated workspace functionality
 
-## Super Powers Unleashed v3.0
+## Super Powers Unleashed v3.0.1
 - **AI Supercharge**: TabNine for advanced code completion and IntelliSense.
 - **Live Development**: Live Server for instant web previews and hot reload.
 - **Git Mastery**: GitHub Pull Requests for in-editor collaboration and PR management.
@@ -44,7 +44,8 @@ Files included:
 - **UI/UX Overdrive**: Material Theme Darker High Contrast, persistent terminals, Emmet for HTML/JSX, and optimized performance.
 - **System Sync**: Telemetry off, auto-updates disabled, smart Git features, and hardware acceleration tweaks.
 - **Automated Setup**: PowerShell script for one-click extension installation with error handling.
-- **Enhanced Productivity**: TODO Tree with custom tags, Better Comments with color-coded annotations, and improved file management.
+- **Enhanced Productivity**: TODO Tree with custom tags, Better Comments with enhanced color-coded annotations, and improved file management.
+- **Performance Optimization**: Fine-tuned auto-save settings and editor responsiveness for maximum productivity.
 
 ## Notes & Tips
 - Fonts (Fira Code, JetBrains Mono, OpenDyslexic) should be installed on your OS for best results.
