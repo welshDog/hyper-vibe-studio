@@ -1,5 +1,5 @@
 
-# Hyper-Vibe Studio v3.0.1 VS Code Workspace
+# Hyper-Vibe Studio v3.0.2 VS Code Workspace
 Drop the `.vscode` folder into the root of your project, or import these files into your user/workspace settings.
 
 Files included:
@@ -12,6 +12,8 @@ Files included:
 - install-extensions.ps1 (automated PowerShell installation script)
 - verify-setup.ps1 (verification script to check installation)
 - sample-project/ (demo project with HTML page)
+- prompt-shield.js (AI safety and prompt injection protection)
+- test-hyper-vibe.js (test file with shield validation)
 - CHANGELOG.md (version history and updates)
 
 ## Quick install
@@ -25,15 +27,18 @@ Files included:
 5. Reload VS Code (Ctrl+Shift+P → "Developer: Reload Window") to apply all settings.
 6. Install recommended extensions manually if needed (open Command Palette → "Extensions: Show Recommended Extensions").
 
-## New Features in HyperFocus Update v3.0.1
-- **Enhanced Better Comments**: Custom color styling for different comment types (!, ?, //)
-- **Improved Material Theme**: Refined Darker High Contrast with better readability
-- **Optimized Performance**: Enhanced auto-save settings and editor responsiveness
-- **Fine-tuned Configuration**: Streamlined settings for maximum productivity
-- **Live Testing**: Successfully tested and validated workspace functionality
+## New Features in Safety Shield Update v3.0.2
+- **Prompt Shield**: 4-layer AI safety defense system against prompt injection attacks
+- **Input Sanitization**: Automatic detection and blocking of malicious inputs
+- **Context Isolation**: Secure separation of system instructions from user content
+- **Output Guardian**: Protection against system prompt leaks and sensitive data exposure
+- **Interactive Testing**: Web demo for testing shield capabilities in sample-project/
+- **Security Monitoring**: Real-time logging and alerting for security events
+- **Comprehensive Testing**: Validation scripts for all safety features
 
-## Super Powers Unleashed v3.0.1
+## Super Powers Unleashed v3.0.2
 - **AI Supercharge**: TabNine for advanced code completion and IntelliSense.
+- **AI Safety Shield**: Prompt Shield with 4-layer defense against prompt injection attacks.
 - **Live Development**: Live Server for instant web previews and hot reload.
 - **Git Mastery**: GitHub Pull Requests for in-editor collaboration and PR management.
 - **Code Quality Guardian**: SonarLint for real-time security and bug detection.
@@ -46,6 +51,7 @@ Files included:
 - **Automated Setup**: PowerShell script for one-click extension installation with error handling.
 - **Enhanced Productivity**: TODO Tree with custom tags, Better Comments with enhanced color-coded annotations, and improved file management.
 - **Performance Optimization**: Fine-tuned auto-save settings and editor responsiveness for maximum productivity.
+- **Security First**: Comprehensive AI safety features and prompt injection protection.
 
 ## Notes & Tips
 - Fonts (Fira Code, JetBrains Mono, OpenDyslexic) should be installed on your OS for best results.
@@ -59,7 +65,8 @@ Files included:
 - GitHub PRs: Ctrl+Shift+P → "GitHub Pull Requests: Create Pull Request".
 - TODO Tree: View all TODOs in the sidebar; use custom tags like [ ], [x], BUG, FIXME.
 - Better Comments: Use ! for alerts, ? for questions, // for strikethrough comments.
-
 - Material Theme: Enjoy the Darker High Contrast theme for better readability.
+- Prompt Shield: Test the AI safety features by running `node test-hyper-vibe.js` or opening sample-project/index.html.
+- Security: The shield automatically protects against prompt injection attacks and logs security events.
 
-Enjoy the hyper-vibe! ⚡
+Enjoy the hyper-vibe! ⚡🛡️

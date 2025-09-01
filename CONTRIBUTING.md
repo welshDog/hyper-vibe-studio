@@ -15,6 +15,7 @@ Thank you for your interest in contributing to Hyper-Vibe Studio! We welcome con
 - **Scripts**: Enhance automation scripts
 - **Snippets**: Create new code snippets
 - **Documentation**: Improve documentation and guides
+- **AI Safety**: Contribute to prompt shield and security features
 
 ### 📚 Documentation
 - **README Updates**: Keep documentation current
@@ -99,12 +100,27 @@ Types:
 - **Popularity**: Widely used in the community
 - **Compatibility**: Works with VS Code 1.74+
 - **Usefulness**: Provides clear value to developers
+- **Security**: No known security vulnerabilities
 
 ### Adding an Extension
 1. **Research**: Check extension ratings, reviews, and maintenance
 2. **Test**: Install and test the extension thoroughly
 3. **Document**: Add description to extension list
 4. **Update**: Add to `.vscode/extensions.json`
+
+## 🛡️ Contributing to AI Safety
+
+### Prompt Shield Enhancements
+- **Detection Patterns**: Add new suspicious pattern detection
+- **Security Rules**: Improve input validation and sanitization
+- **Logging**: Enhance monitoring and alerting capabilities
+- **Testing**: Create comprehensive test cases for security features
+
+### Security Best Practices
+- Always test security features thoroughly
+- Document security implications of new features
+- Follow principle of least privilege
+- Consider privacy and data protection
 
 Example addition:
 ```json

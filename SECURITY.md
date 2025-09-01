@@ -35,6 +35,13 @@ We will keep you informed about our progress throughout the process of fixing th
 
 ## 🔍 Security Considerations
 
+### AI Safety & Prompt Injection Protection
+- **Prompt Shield**: 4-layer defense system against prompt injection attacks
+- **Input Validation**: Automatic detection of suspicious patterns and malicious inputs
+- **Context Isolation**: Secure separation of system instructions from user content
+- **Output Sanitization**: Protection against system prompt leaks and sensitive information exposure
+- **Real-time Monitoring**: Logging and alerting for security events
+
 ### Extension Security
 - All recommended extensions are from verified publishers
 - We regularly review extension security and maintenance status
@@ -62,10 +69,12 @@ We will keep you informed about our progress throughout the process of fixing th
 - Use workspace-specific settings when possible
 - Avoid storing sensitive data in configuration files
 
-### Network Security
-- Be cautious with extensions that require network access
-- Use HTTPS for all external connections
-- Consider firewall rules for development environments
+### AI Safety Best Practices
+- Always use the Prompt Shield for AI-assisted development
+- Review AI-generated code for security implications
+- Avoid sharing sensitive information with AI tools
+- Use workspace-specific settings to maintain security boundaries
+- Regularly update AI extensions and review their permissions
 
 ## 📢 Security Updates
 

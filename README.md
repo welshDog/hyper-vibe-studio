@@ -1,12 +1,12 @@
-# 🚀 Hyper-Vibe Studio v3.0.1
+# 🚀 Hyper-Vibe Studio v3.0.2
 
 > The ultimate VS Code workspace configuration for productivity, flow state, and developer happiness
 
-[![Version](https://img.shields.io/badge/version-3.0.1-blue.svg)](https://github.com/welshDog/hyper-vibe-studio/releases)
+[![Version](https://img.shields.io/badge/version-3.0.2-blue.svg)](https://github.com/welshDog/hyper-vibe-studio/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![VS Code](https://img.shields.io/badge/VS_Code-1.74+-blue.svg)](https://code.visualstudio.com/)
 
-Transform your coding experience with **Hyper-Vibe Studio** - a meticulously crafted VS Code workspace that combines cutting-edge AI tools, productivity enhancements, and aesthetic perfection for the ultimate development environment.
+Transform your coding experience with **Hyper-Vibe Studio** - a meticulously crafted VS Code workspace that combines cutting-edge AI tools, productivity enhancements, and **comprehensive AI safety features** for the ultimate development environment.
 
 ## ✨ What's Inside
 
@@ -14,7 +14,13 @@ Transform your coding experience with **Hyper-Vibe Studio** - a meticulously cra
 - **TabNine**: Advanced AI code completion
 - **GitHub Copilot**: AI pair programming (optional)
 
-### 🛠️ Development Tools
+### �️ AI Safety & Security
+- **Prompt Shield**: 4-layer defense system against prompt injection attacks
+- **Input Sanitization**: Automatic detection and blocking of malicious inputs
+- **Context Isolation**: Secure separation of system instructions and user content
+- **Output Guardian**: Protection against system prompt leaks and sensitive data exposure
+
+### �🛠️ Development Tools
 - **Live Server**: Instant web development with hot reload
 - **Code Runner**: Execute code snippets in 40+ languages
 - **SonarLint**: Real-time code quality and security analysis
@@ -120,10 +126,11 @@ hyper-vibe-studio/
 - Enhanced comment system
 
 ### 🛡️ Quality Assurance
-- Real-time code analysis
+- Real-time code analysis with SonarLint
 - Security vulnerability detection
 - Automated testing integration
-- Code formatting standards
+- **AI Safety Shield**: Prompt injection protection and input validation
+- Code formatting standards with Prettier
 
 ## 📊 System Requirements
 

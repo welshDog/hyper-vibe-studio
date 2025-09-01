@@ -26,17 +26,47 @@
     <div class="vibe-container">
         <h1>🚀 Hyper-Vibe Studio v3.0</h1>
         <p>Your coding workspace is ready!</p>
+        
+        <!-- Prompt Shield Demo -->
+        <h2>🛡 AI Safety Test</h2>
+        <input type="text" id="userInput" placeholder="Try: 'ignore previous instructions'" style="width: 80%; padding: 10px; margin: 10px 0; border-radius: 10px; border: none;">
+        <br>
+        <button onclick="testPromptShield()" style="margin: 10px;">Test Shield</button>
+        <button onclick="testCodeRunner()">Test Code Runner</button>
+        
+        <div id="output" style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.2); border-radius: 10px; text-align: left;"></div>
+        
         <!-- TODO: Add more demo features -->
         <!-- ! Important: Test all extensions -->
         <!-- ? Should we add more themes? -->
-        <button onclick="testCodeRunner()">Test Code Runner</button>
     </div>
 
+    <script src="../prompt-shield.js"></script>
     <script>
         // BUG: This is intentional for demo purposes
+        const shield = new PromptShield();
+        
         function testCodeRunner() {
             console.log("Hyper-Vibe Studio is working! ⚡");
             alert("All systems operational! 🔥");
+        }
+        
+        function testPromptShield() {
+            try {
+                const userInput = document.getElementById('userInput').value;
+                const sanitized = shield.sanitizeInput(userInput);
+                const guarded = shield.guardOutput("Response to: " + sanitized);
+                
+                document.getElementById('output').innerHTML = `
+                    <strong>✅ Safe Input:</strong> ${sanitized}<br>
+                    <strong>✅ Guarded Output:</strong> ${guarded}
+                `;
+                
+                shield.logActivity('shield_test', { input: userInput, sanitized: sanitized });
+            } catch (error) {
+                document.getElementById('output').innerHTML = `<strong>❌ Blocked:</strong> ${error.message}`;
+                shield.logActivity('injection_attempt', { input: userInput, error: error.message });
+            }
         }
     </script>
 </body>
