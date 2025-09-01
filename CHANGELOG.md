@@ -10,6 +10,10 @@
 - 📁 Sample project with demo HTML page
 - ⌨️ Enhanced keybindings for productivity shortcuts
 - 📋 Comprehensive changelog for version tracking
+- 📚 Added CONTRIBUTING.md with contribution guidelines
+- 🛡️ Added SECURITY.md for security vulnerability reporting
+- 📜 Added CODE_OF_CONDUCT.md for community standards
+- 🔗 Updated all repository URLs to correct GitHub location
 
 ## v2.0.0 - The HyperFocus Update
 - 🧠 AI-powered coding with TabNine

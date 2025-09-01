@@ -2,7 +2,7 @@
 
 > The ultimate VS Code workspace configuration for productivity, flow state, and developer happiness
 
-[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](https://github.com/hyper-vibe/hyper-vibe-studio-vscode/releases)
+[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](https://github.com/welshDog/hyper-vibe-studio/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![VS Code](https://img.shields.io/badge/VS_Code-1.74+-blue.svg)](https://code.visualstudio.com/)
 
@@ -44,8 +44,8 @@ Transform your coding experience with **Hyper-Vibe Studio** - a meticulously cra
 
 ```bash
 # Clone the repository
-git clone https://github.com/hyper-vibe/hyper-vibe-studio-vscode.git
-cd hyper-vibe-studio-vscode
+git clone https://github.com/welshDog/hyper-vibe-studio.git
+cd hyper-vibe-studio
 
 # Run automated setup
 ./scripts/install-extensions.ps1
@@ -65,7 +65,7 @@ cd hyper-vibe-studio-vscode
 ## 📁 Repository Structure
 
 ```
-hyper-vibe-studio-vscode/
+hyper-vibe-studio/
 ├── .vscode/                    # VS Code workspace configuration
 │   ├── settings.json          # Editor settings and preferences
 │   ├── keybindings.json       # Custom keyboard shortcuts
@@ -78,6 +78,10 @@ hyper-vibe-studio-vscode/
 │   └── verify-setup.bat      # Windows batch wrapper
 ├── sample-project/           # Demo project with examples
 │   └── index.html           # Interactive demo page
+├── hyper-vibe-vscode/       # VS Code workspace files
+│   ├── .vscode/             # Core configuration files
+│   ├── README.txt           # Workspace documentation
+│   └── CHANGELOG.md         # Version history
 ├── CHANGELOG.md             # Version history
 ├── LICENSE                  # MIT License
 └── README.md               # This file
@@ -167,13 +171,27 @@ Add language-specific snippets in `.vscode/snippets/`:
 
 ## 🤝 Contributing
 
-We welcome contributions! Please:
+We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for detailed information on:
 
+- How to contribute code, documentation, or extensions
+- Development setup and testing guidelines
+- Pull request process and standards
+- Code style and best practices
+
+### Quick Start for Contributors
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
+
+## 📋 Documentation
+
+- **[Contributing Guide](CONTRIBUTING.md)**: Detailed contribution guidelines
+- **[Code of Conduct](CODE_OF_CONDUCT.md)**: Community standards and behavior
+- **[Security Policy](SECURITY.md)**: Security vulnerability reporting
+- **[Release Notes](RELEASE-NOTES.md)**: Detailed v3.0 release information
+- **[Changelog](CHANGELOG.md)**: Version history and updates
 
 ## 📝 Changelog
 
@@ -206,7 +224,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=hyper-vibe/hyper-vibe-studio-vscode&type=Date)](https://star-history.com/#hyper-vibe/hyper-vibe-studio-vscode&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=welshDog/hyper-vibe-studio&type=Date)](https://star-history.com/#welshDog/hyper-vibe-studio&Date)
 
 ---
 

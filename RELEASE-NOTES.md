@@ -31,7 +31,7 @@ Welcome to **Hyper-Vibe Studio v3.0** - the ultimate VS Code workspace configura
 ### Quick Start
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/hyper-vibe-studio.git
+   git clone https://github.com/welshDog/hyper-vibe-studio.git
    cd hyper-vibe-studio
    ```
 
